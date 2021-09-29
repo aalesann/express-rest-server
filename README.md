@@ -1,6 +1,6 @@
 # REST Server desarrollado con NodeJs + ExpressJs + MongoDB
 
-![MongoDB, ExpressJs, NodeJs](https://ichi.pro/assets/images/max/640/1*NFTgwZ_TUmceZnSHCundBw.jpeg)
+![''](https://ichi.pro/assets/images/max/640/1*NFTgwZ_TUmceZnSHCundBw.jpeg)
 
 
 ## Instalaciones necesarias:
