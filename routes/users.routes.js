@@ -3,10 +3,11 @@
 const router = require('express').Router();
 const { check } = require('express-validator');
 
-const { rolValido, existeEmail, existeUsuario } = require('../helpers/validaciones-bd');
-const { validarCampos } = require('../middlewares/validar-campos');
+const { rolValido, existeEmail, existeUsuario } = require('../helpers/validaciones_bd');
+const { validarCampos } = require('../middlewares/validar_campos');
 const { validar_jwt } = require('../middlewares/validar_jwt');
 const { adminRole, tieneRol } = require('../middlewares/validar_roles');
+
 // Requerimos los controladores (funciones que contendrán la lógica del endpoint)
 const {
     getUsers,

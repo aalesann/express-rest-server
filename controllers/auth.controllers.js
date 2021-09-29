@@ -1,5 +1,5 @@
 const bcryptjs = require('bcryptjs');
-const { generar_jwt } = require("../helpers/generar-jwt");
+const { generar_jwt } = require("../helpers/generar_jwt");
 const Users = require("../models/Users");
 
 const ctrlAuth = {};
