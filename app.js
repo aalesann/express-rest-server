@@ -8,7 +8,7 @@ const cors = require('cors');
 // Inicializaciones
 const app = express();
 require('dotenv').config();
-// require('./database');
+require('./database');
 
 // Middlewares
 app.use(helmet());
