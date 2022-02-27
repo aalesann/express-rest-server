@@ -1,10 +1,15 @@
 const { model, Schema } = require('mongoose');
 
 const NewVisitSchema = Schema({
-    visit_number: {
+    name: {
+        type: String,
+        default: 'exxim'
+    },
+    visits: {
         type: Number,
         default: 0,
         min: 0,
+        required: true
     }
 }, {
     versionKey: false,
