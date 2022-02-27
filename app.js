@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Rutas
 app.use('/api/user',require('./routes/users.routes'));
 app.use('/api/auth',require('./routes/auth.routes'));
-app.use(require('./routes/carta.routes'));
+app.use(require('./routes/carta.routes.js'));
 
 // Servidor en escucha
 app.listen(port, ()=> console.log(`Server running on port ${port}`));
