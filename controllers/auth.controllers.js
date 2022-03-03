@@ -4,7 +4,7 @@ const Users = require("../models/Users");
 
 const ctrlAuth = {};
 
-ctrlAuth.login = async (req, res) => {
+ctrlAuth.signin = async (req, res) => {
 
     let { username, password, ...otrosDatos } = req.body
 
