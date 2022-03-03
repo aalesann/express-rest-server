@@ -29,5 +29,5 @@ app.use('/api/auth',require('./routes/auth.routes'));
 app.use(require('./routes/carta.routes.js'));
 
 // Servidor en escucha
-app.listen(port, ()=> console.log(`Server running on port ${port}`));
+app.listen(port, ()=> console.log(`Server running on http://localhost:${port}`));
 

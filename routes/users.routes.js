@@ -20,11 +20,11 @@ router.get('/', getUsers)
 
 // Ruta para crear un usuario
 router.post('/', [
-    validar_jwt,
-    adminRole,
-    tieneRol('ADMIN_USER', 'COMMON_USER'),
-    check('username', 'El usuario no es correcto')
-    .isEmail(),
+    // validar_jwt,
+    // adminRole,
+    // tieneRol('ADMIN_USER', 'COMMON_USER'),
+    // check('username', 'El usuario no es correcto')
+    // .isEmail(),
 
     check('username')
     .custom(existeEmail),
